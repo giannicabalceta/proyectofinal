@@ -1,0 +1,39 @@
+.footer {
+    background-color:rgb(69,160,73); /* Color de fondo oscuro */
+    padding: 20px; /* Espaciado interno de 20px */
+    text-align: center; /* Centra el contenido dentro del footer */
+    color: white; /* Color del texto */
+    position: relative; /* Posición relativa para poder posicionar elementos hijos */
+  }
+  
+  .footer-icons {
+    display: flex; /* Utiliza flexbox para alinear los iconos */
+    justify-content: center; /* Centra los iconos horizontalmente */
+    gap: 20px; /* Espacio de 20px entre los iconos */
+  }
+  
+  .footer-icon img {
+    width: 40px; /* Ancho del icono */
+    height: 40px; /* Alto del icono */
+    transition: transform 0.3s; /* Transición suave para la animación */
+  }
+  
+  .footer-icon img:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del icono al pasar el ratón */
+  }
+  
+  .footer-text {
+    margin-top: 15px; /* Espacio superior de 15px para separar del contenedor de iconos */
+    font-size: 16px; /* Tamaño de fuente para el texto */
+    animation: fadeIn 1s; /* Animación para el texto */
+  }
+  
+  /* Animación de desvanecimiento */
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Comienza con una opacidad de 0 (invisible) */
+    }
+    to {
+      opacity: 1; /* Termina con una opacidad de 1 (visible) */
+    }
+  }

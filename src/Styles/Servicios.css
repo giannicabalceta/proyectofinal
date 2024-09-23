@@ -1,0 +1,34 @@
+.servicios-container {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .servicios-title {
+    color: #4CAF50;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .servicios-description, 
+  .servicios-order, 
+  .servicios-delivery {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 15px 0;
+  }
+  
+  .servicios-order {
+    font-weight: bold;
+    color: #FF5722;
+  }
+  
+  .servicios-delivery {
+    font-style: italic;
+    color: #757575;
+  }
+  

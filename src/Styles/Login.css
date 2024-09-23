@@ -1,0 +1,120 @@
+/* Login.css */
+
+/* General Styles */
+.body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #f1f0f0; /* Fondo claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Container Styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura de la ventana completa */
+  text-align: center;
+  margin-right: 470px;
+  margin-top: -100px;
+}
+
+/* Estilo del contenedor del formulario */
+.conte {
+  background: linear-gradient(135deg, #4CAF50, #81C784); /* Gradiente verde claro */
+  border-radius: 15px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  color: #ffffff; /* Texto blanco */
+  animation: slideIn 1s ease-out; /* Animación de entrada */
+}
+
+/* Animation for container */
+@keyframes slideIn {
+  from {
+      transform: translateY(-50px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+/* Title Style */
+.titu {
+  font-size: 28px;
+  margin-bottom: 20px;
+  position: relative;
+  font-weight: 700;
+  letter-spacing: 1px;
+  animation: fadeIn 1s ease-in-out; /* Animación de desvanecimiento */
+}
+
+/* Form Element Styles */
+.informacion1, .informacion2 {
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.email, .contrasena1 {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.inpt1, .inpt2 {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.9); /* Fondo blanco translúcido */
+  color: #333; /* Texto oscuro para campos de entrada */
+}
+
+.inpt1:focus, .inpt2:focus {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: translateY(-4px);
+  border: 2px solid #4CAF50; /* Borde verde al enfocar */
+}
+
+/* Button Style */
+.botonR {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+.botonR:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.botonR:active {
+  transform: scale(1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

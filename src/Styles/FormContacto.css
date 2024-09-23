@@ -1,0 +1,73 @@
+/* General Styles */
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../Img/fondoverde.jpg);
+  }
+  
+  /* Form Styles */
+  .contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease;
+    margin-left: 500px;
+    background-color: rgb(106,189,109);
+    margin-top: 100px;
+  }
+  
+  .contact-form:hover {
+    transform: scale(1.02);
+  }
+  
+  .form-label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    border-color: black;
+    outline: none;
+  }
+  
+  .form-submit {
+    background-color: white;
+    color:  rgb(106,189,109);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-left: 128px;
+  }
+  
+  .form-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-textarea {
+    resize: none;
+    height: 100px;
+  }
+  

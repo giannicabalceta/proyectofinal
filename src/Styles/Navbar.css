@@ -1,0 +1,69 @@
+.home-container {
+    background-color: #f9f9f9; /* Color de fondo suave */
+    padding: 20px 0;
+}
+
+.header {
+    max-width: 1200px; /* Limitar el ancho máximo */
+    margin: auto; /* Centrar el contenedor */
+    padding: 0 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+}
+
+.header h1 {
+    font-size: 2.5em; /* Tamaño grande para el título */
+    color: #4CAF50; /* Color verde */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.navbar {
+    display: flex; /* Flexbox para distribución */
+    justify-content: center; /* Centrar elementos en la barra */
+    align-items: center; /* Alinear verticalmente */
+    gap: 20px; /* Espaciado entre los enlaces */
+}
+
+.navbar a {
+    text-decoration: none; /* Sin subrayado */
+    color: #333; /* Color de texto oscuro */
+    font-size: 1.1em; /* Tamaño de fuente */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+.navbar a:hover {
+    color: #4CAF50; /* Color al pasar el ratón */
+}
+
+.search-container {
+    display: flex; /* Flexbox para el input y el botón */
+    align-items: center; /* Alinear verticalmente */
+}
+
+.search-container input {
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde suave */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-right: 10px; /* Espacio entre input y botón */
+}
+
+.search-container button {
+    padding: 10px 15px; /* Espaciado interno */
+    background-color: #4CAF50; /* Fondo verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+
+.search-container button:hover {
+    background-color: #45a049; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Colocar los enlaces en columna */
+        gap: 10px; /* Espaciado reducido */
+    }
+}
